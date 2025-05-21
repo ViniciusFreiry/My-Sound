@@ -1,17 +1,17 @@
 package br.com.mysound.templates;
 
 public class Audio {
-    private String titulo;
+    private String title;
     private int totalPlays;
     private int totalLikes;
-    private double rating;
+    private int rating;
 
-    public String getTitulo() {
-        return titulo;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public int getTotalPlays() {
@@ -22,7 +22,7 @@ public class Audio {
         return totalLikes;
     }
 
-    public double getRating() {
+    public int getRating() {
         return rating;
     }
 
